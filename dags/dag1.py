@@ -6,7 +6,7 @@ from airflow.operators.bash import BashOperator
 from airflow.providers.http.operators.http import SimpleHttpOperator
 from airflow.utils.dates import days_ago
 import datetime
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 default_args = {
     'owner': 'airflow',
